@@ -1,0 +1,157 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#calculate-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073e6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#calculate-btn:hover {
+    background-color: #005bb5;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#bmiChart {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+canvas {
+    margin-top: 20px;
+}
+
+
+#recommendations {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#recommendations h2 {
+    color: #0073e6;
+}
+
+#recommendations a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#recommendations a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .calculator {
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+
+    #calculate-btn {
+        font-size: 14px;
+    }
+
+    #recommendations {
+        padding: 15px;
+    }
+
+    #recommendations h2 {
+        font-size: 18px;
+    }
+
+    #recommendations p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .calculator {
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #calculate-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #result {
+        font-size: 14px;
+    }
+
+    #recommendations {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #recommendations h2 {
+        font-size: 16px;
+    }
+
+    #recommendations a {
+        font-size: 14px;
+    }
+}
